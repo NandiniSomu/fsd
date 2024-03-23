@@ -1,0 +1,24 @@
+import React,
+class TableView extends Component{
+return(
+<tr key ={index} style={rowstyle}>
+{Object.values(item).map((value,index)=>(<td key={index
+render(){
+const tableStyle={
+boredrCollapse:'collapse',
+width:'70%,
+top:30,
+margin:'20px auto'
+border:'1px solid blue',
+};
+return(
+<div>
+<table style={tableStyle}>
+<thead style={{backgroundColor:'#3498db'}}>
+<tr>{this.renderTableHeader()}
+</tr>
+</thead>
+<tbody>{this.renderTableData()}
+</tbody>
+</table>
+</div
