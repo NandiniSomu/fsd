@@ -1,0 +1,9 @@
+import pandas as pd
+data=pd.read_csv("Reviews.csv")
+print(data)
+data
+data.head()
+data.tail()
+data.head(10)
+data.tail(10)
+data.info()
